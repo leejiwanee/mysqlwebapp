@@ -1,0 +1,54 @@
+{% extends 'parameters/main.html' %}
+
+{% block content %}
+
+
+<br>
+<head>
+    <meta http-equiv="refresh" content="60">
+</head>
+<div class="row">
+    <div class="col-md">
+        <div class="card card-body">
+            <h5> {{ dbName }} </h5>
+            <form method="get">
+				{{myFilter.form}}
+
+		    <button class="btn btn-primary" type="submit">Search</button>
+		  </form>
+        </div>
+        <div class="card card-body">
+            <table class="table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Values</th>
+                    <th>Allowed_Values</th>
+                    <th>Modifiable</th>
+                    <th>Source</th>
+                    <th>apply type</th>
+                    <th>data type</th>
+                    <th>Description</th>
+                </tr>
+
+                {% for i in parameters %}
+                    <tr>
+                        <td>{{i.id}}</td>
+                        <td>{{i.name}}</td>
+                        <td>{{i.values}}</td>
+                        <td>{{i.allowed_values}}</td>
+                        <td>{{i.modifiable}}</td>
+                        <td>{{i.source}}</td>
+                        <td>{{i.apply_type}}</td>
+                        <td>{{i.data_type}}</td>
+                        <td>{{i.description}}</td>
+                    </tr>
+                {% endfor %}
+                
+            </table>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+

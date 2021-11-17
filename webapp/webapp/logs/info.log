@@ -1,0 +1,53 @@
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 8138
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET / HTTP/1.1" 200 8138
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name=%EB%A9%B0%EC%83%88 HTTP/1.1" 200 2541
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name=auto HTTP/1.1" 200 4626
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name=auto HTTP/1.1" 200 4626
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name= HTTP/1.1" 200 8601
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name= HTTP/1.1" 200 8601
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name= HTTP/1.1" 200 8601
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name= HTTP/1.1" 200 8601
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO "GET /?name= HTTP/1.1" 200 8601
+WARNING "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO C:\Jiwan\python\webapp\webapp\settings.py changed, reloading.
+INFO 2021-11-16 21:00:17,610 autoreload 3600 3016 Watching for file changes with StatReloader
+INFO 2021-11-16 21:00:56,203 basehttp 3600 25456 "GET /?name= HTTP/1.1" 200 8601
+WARNING 2021-11-16 21:00:56,223 basehttp 3600 25456 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:01:56,265 basehttp 3600 8452 "GET /?name= HTTP/1.1" 200 8601
+WARNING 2021-11-16 21:01:56,289 basehttp 3600 8452 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:02:56,341 basehttp 3600 10516 "GET /?name= HTTP/1.1" 200 8601
+WARNING 2021-11-16 21:02:56,365 basehttp 3600 10516 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:03:56,403 basehttp 3600 16040 "GET /?name= HTTP/1.1" 200 8605
+WARNING 2021-11-16 21:03:56,429 basehttp 3600 16040 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:04:56,461 basehttp 3600 25088 "GET /?name= HTTP/1.1" 200 8605
+WARNING 2021-11-16 21:04:56,481 basehttp 3600 25088 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:05:56,534 basehttp 3600 11700 "GET /?name= HTTP/1.1" 200 8605
+WARNING 2021-11-16 21:05:56,563 basehttp 3600 11700 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:06:56,590 basehttp 3600 25692 "GET /?name= HTTP/1.1" 200 8605
+WARNING 2021-11-16 21:06:56,610 basehttp 3600 25692 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:07:35,094 basehttp 3600 18500 "GET /?name=auto HTTP/1.1" 200 4626
+WARNING 2021-11-16 21:07:35,119 basehttp 3600 18500 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 21:08:24,551 autoreload 3600 3016 C:\Jiwan\python\webapp\webapp\settings.py changed, reloading.
+INFO 2021-11-16 23:28:25,934 autoreload 24736 25264 Watching for file changes with StatReloader
+INFO 2021-11-16 23:28:28,997 autoreload 6260 5388 Watching for file changes with StatReloader
+INFO 2021-11-16 23:29:05,082 autoreload 6260 5388 C:\Jiwan\github\webapp\webapp\settings.py changed, reloading.
+INFO 2021-11-16 23:29:05,606 autoreload 21232 20372 Watching for file changes with StatReloader
+INFO 2021-11-16 23:29:08,038 autoreload 18944 17888 Watching for file changes with StatReloader
+INFO 2021-11-16 23:29:15,226 basehttp 18944 13776 "GET / HTTP/1.1" 200 8605
+WARNING 2021-11-16 23:29:15,270 basehttp 18944 13776 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 23:29:18,469 basehttp 18944 12796 "GET /?name=%EB%A9%B0%EC%83%88 HTTP/1.1" 200 2541
+WARNING 2021-11-16 23:29:18,489 basehttp 18944 12796 "GET /static/css/main.css HTTP/1.1" 404 1795
+INFO 2021-11-16 23:29:20,536 basehttp 18944 22920 "GET /?name=auto HTTP/1.1" 200 4626
+WARNING 2021-11-16 23:29:20,552 basehttp 18944 22920 "GET /static/css/main.css HTTP/1.1" 404 1795
